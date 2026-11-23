@@ -1,4 +1,5 @@
 using EasyNota_DES.Data;
+using EasyNota_DES.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EasyNota_DES
@@ -12,8 +13,10 @@ namespace EasyNota_DES
             // Add services to the container.
             builder.Services.AddRazorPages();
 
-            //Registro do Contexto no container
+            //Registro de Contexto e Services no container
             builder.Services.AddDbContext<EasyNotaDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<PacienteService>();
+
 
             var app = builder.Build();
 
