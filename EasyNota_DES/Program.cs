@@ -10,13 +10,16 @@ namespace EasyNota_DES
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Adiciona servicos ao container.
             builder.Services.AddRazorPages();
 
             //Registro de Contexto e Services no container
             builder.Services.AddDbContext<EasyNotaDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<PacienteService>();
-
+            builder.Services.AddScoped<ConsultaService>();
+            builder.Services.AddScoped<PagamentoService>();
+            builder.Services.AddScoped<NotaFiscalService>();
+            builder.Services.AddScoped<OrganizadorNFsService>();
 
             var app = builder.Build();
 
