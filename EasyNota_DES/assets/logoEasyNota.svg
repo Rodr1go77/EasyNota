@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Easy Nota</title>
+  <desc id="description">Documento azul com uma marca de verificação verde ao lado do nome Easy Nota.</desc>
+  <g fill="none" stroke="#0067A9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 176V69c0-6 5-11 11-11h111l50 50v194c0 6-5 11-11 11H95c-6 0-11-5-11-11v-83"/>
+    <path d="M206 59v35c0 10 8 18 18 18h31"/>
+  </g>
+  <g fill="#70D6B1">
+    <path d="M76 183c20 3 43 22 68 57 49-70 111-127 220-186-90 66-153 138-205 219-4 7-12 10-20 8-7-1-11-6-15-13-17-34-35-59-48-67-4-3-6-8-5-12 1-3 2-5 5-6Z"/>
+    <path d="M107 199c12 9 25 24 38 43 54-77 111-128 177-166-70 48-126 106-171 174l-7 9-7-11c-11-19-21-35-30-49Z" opacity=".55"/>
+    <path d="M155 225c43-63 94-111 151-145-59 42-108 93-147 153Z" opacity=".65"/>
+  </g>
+  <g fill="#0067A9" font-family="Arial, Helvetica, sans-serif" font-size="91" font-weight="700" letter-spacing="2">
+    <text x="305" y="170">EASY</text>
+    <text x="305" y="270">NOTA</text>
+  </g>
+</svg>

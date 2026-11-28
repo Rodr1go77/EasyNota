@@ -31,10 +31,7 @@ namespace EasyNota_DES.Services
         }
 
         //Método para organizar as notas fiscais (arquivos pdf) geradas
-        public async Task<(bool Sucesso, string Mensagem, string? CaminhoFinal)> OrganizarNFsAsync(
-            string notaFiscalId,
-            string caminhoOrigemPDF,
-            bool moverArquivo = false)
+        public async Task<(bool Sucesso, string Mensagem, string? CaminhoFinal)> OrganizarNFsAsync(string notaFiscalId, string caminhoOrigemPDF, bool moverArquivo = false)
         {
             if (string.IsNullOrWhiteSpace(notaFiscalId) || string.IsNullOrWhiteSpace(caminhoOrigemPDF))
             {
@@ -108,9 +105,6 @@ namespace EasyNota_DES.Services
 
 
         }
-
-
-
 
 
     }

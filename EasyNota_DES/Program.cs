@@ -20,6 +20,7 @@ namespace EasyNota_DES
             builder.Services.AddScoped<PagamentoService>();
             builder.Services.AddScoped<NotaFiscalService>();
             builder.Services.AddScoped<OrganizadorNFsService>();
+            builder.Services.AddScoped<EmissaoNFPlaywright>();
 
             var app = builder.Build();
 

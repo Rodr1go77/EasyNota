@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="EasyNota_DES/EasyNota_DES.csproj" />
+  <Project Path="PlaywrightLab/PlaywrightLab.csproj" Id="395a8d45-9e1d-46ce-abfe-45d844137fca" />
 </Solution>
